@@ -1,0 +1,484 @@
+2020-12-23 11:34:51.775 - INFO - 5795 - azureml.train.automl.automlconfig._start_execution:152 - No compute target or run config provided. Running local legacy run.
+2020-12-23 11:34:51.777 - INFO - 5795 - azureml.train.automl.automlconfig._start_execution:195 - Submitting local legacy run.
+2020-12-23 11:34:51.778 - INFO - 5795 - azureml.automl.core.package_utilities._log_activity:54 - ActivityStarted: PackagesCheck
+2020-12-23 11:34:51.800 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scipy, Version: 1.5.2 found.
+2020-12-23 11:34:51.800 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: py-cpuinfo, Version: 5.0.0 found.
+2020-12-23 11:34:51.801 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gensim, Version: 3.8.3 found.
+2020-12-23 11:34:51.801 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: lightgbm, Version: 2.3.0 found.
+2020-12-23 11:34:51.801 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: keras2onnx, Version: 1.6.0 found.
+2020-12-23 11:34:51.802 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnx, Version: 1.7.0 found.
+2020-12-23 11:34:51.802 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: statsmodels, Version: 0.10.2 found.
+2020-12-23 11:34:51.803 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxmltools, Version: 1.4.1 found.
+2020-12-23 11:34:51.803 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: botocore, Version: 1.18.18 found.
+2020-12-23 11:34:51.804 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.804 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pmdarima, Version: 1.1.1 found.
+2020-12-23 11:34:51.804 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: nimbusml, Version: 1.8.0 found.
+2020-12-23 11:34:51.805 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pandas, Version: 0.25.3 found.
+2020-12-23 11:34:51.805 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: dill, Version: 0.3.3 found.
+2020-12-23 11:34:51.805 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scikit-learn, Version: 0.22.2.post1 found.
+2020-12-23 11:34:51.806 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: smart-open, Version: 1.9.0 found.
+2020-12-23 11:34:51.806 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxruntime, Version: 1.3.0 found.
+2020-12-23 11:34:51.806 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: psutil, Version: 5.7.3 found.
+2020-12-23 11:34:51.806 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: boto3, Version: 1.15.18 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: skl2onnx, Version: 1.4.9 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: numpy, Version: 1.18.5 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: sklearn-pandas, Version: 1.7.0 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: joblib, Version: 0.14.1 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxconverter-common, Version: 1.6.0 found.
+2020-12-23 11:34:51.807 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.808 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-12-23 11:34:51.808 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-12-23 11:34:51.808 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pytz, Version: 2020.4 found.
+2020-12-23 11:34:51.808 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: python-dateutil, Version: 2.8.1 found.
+2020-12-23 11:34:51.808 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrest, Version: 0.6.19 found.
+2020-12-23 11:34:51.808 - WARNING - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:284 - Package: pyopenssl, Version: 20.0.0 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pyjwt, Version: 1.7.1 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: cryptography, Version: 3.2.1 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: backports.tempfile, Version: 1.0 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jmespath, Version: 0.10.0 found.
+2020-12-23 11:34:51.809 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-12-23 11:34:51.810 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-12-23 11:34:51.810 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrestazure, Version: 0.6.4 found.
+2020-12-23 11:34:51.810 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jsonpickle, Version: 1.4.2 found.
+2020-12-23 11:34:51.810 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-12-23 11:34:51.810 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: docker, Version: 4.4.0 found.
+2020-12-23 11:34:51.811 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: urllib3, Version: 1.25.11 found.
+2020-12-23 11:34:51.811 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: adal, Version: 1.2.5 found.
+2020-12-23 11:34:51.811 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pathspec, Version: 0.8.1 found.
+2020-12-23 11:34:51.811 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-common, Version: 1.1.26 found.
+2020-12-23 11:34:51.811 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: secretstorage, Version: 3.3.0 found.
+2020-12-23 11:34:51.812 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-resource, Version: 10.3.0 found.
+2020-12-23 11:34:51.812 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-12-23 11:34:51.812 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: requests, Version: 2.25.0 found.
+2020-12-23 11:34:51.812 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-12-23 11:34:51.812 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-automl-client, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-pipeline-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-restclients-hyperdrive, Version: 1.19.0 found.
+2020-12-23 11:34:51.815 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:34:51.829 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scipy, Version: 1.5.2 found.
+2020-12-23 11:34:51.829 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:34:51.829 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gensim, Version: 3.8.3 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-storage-queue, Version: 12.1.4 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: lightgbm, Version: 2.3.0 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: keras2onnx, Version: 1.6.0 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-automl-client, Version: 1.19.0 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnx, Version: 1.7.0 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-interpret, Version: 1.19.0 found.
+2020-12-23 11:34:51.830 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: statsmodels, Version: 0.10.2 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxmltools, Version: 1.4.1 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: botocore, Version: 1.18.18 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-defaults, Version: 1.19.0 found.
+2020-12-23 11:34:51.831 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pandas, Version: 0.25.3 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: smart-open, Version: 1.9.0 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scikit-learn, Version: 0.22.2.post1 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxruntime, Version: 1.3.0 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: boto3, Version: 1.15.18 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: skl2onnx, Version: 1.4.9 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: numpy, Version: 1.18.5 found.
+2020-12-23 11:34:51.832 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: sklearn-pandas, Version: 1.7.0 found.
+2020-12-23 11:34:51.833 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxconverter-common, Version: 1.6.0 found.
+2020-12-23 11:34:51.834 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.834 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jinja2, Version: 2.11.2 found.
+2020-12-23 11:34:51.848 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: interpret-community, Version: 0.15.4 found.
+2020-12-23 11:34:51.848 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:34:51.849 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.850 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: requests, Version: 2.25.0 found.
+2020-12-23 11:34:51.850 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrest, Version: 0.6.19 found.
+2020-12-23 11:34:51.850 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrestazure, Version: 0.6.4 found.
+2020-12-23 11:34:51.859 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: applicationinsights, Version: 0.11.9 found.
+2020-12-23 11:34:51.859 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: configparser, Version: 3.7.4 found.
+2020-12-23 11:34:51.860 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: json-logging-py, Version: 0.2 found.
+2020-12-23 11:34:51.860 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.860 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: flask, Version: 1.0.3 found.
+2020-12-23 11:34:51.861 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.861 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gunicorn, Version: 19.9.0 found.
+2020-12-23 11:34:51.861 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-model-management-sdk, Version: 1.0.1b6.post1 found.
+2020-12-23 11:34:51.861 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: werkzeug, Version: 1.0.1 found.
+2020-12-23 11:34:51.861 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataprep-rslex, Version: 1.4.0 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataprep-native, Version: 26.0.0 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: cloudpickle, Version: 1.6.0 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-identity, Version: 1.4.1 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: dotnetcore2, Version: 2.1.19 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.862 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.863 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:34:51.863 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:34:51.865 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.866 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ipywidgets, Version: 7.5.1 found.
+2020-12-23 11:34:51.866 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:34:51.866 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: applicationinsights, Version: 0.11.9 found.
+2020-12-23 11:34:51.866 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:34:51.878 - CRITICAL - 5795 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: /anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/automl/core/validated_linux_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Package name/Required version/Installed version
+azureml-core/pyopenssl<20.0.0/pyOpenSSL 20.0.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: /anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/automl/core/validated_linux_requirements.txt. Alternatively, use remote target to avoid dependency management. \nPackage name/Required version/Installed version\nazureml-core/pyopenssl<20.0.0/pyOpenSSL 20.0.0",
+        "target": "azureml-core",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "435ab938-fd87-49bc-932e-6eec0d6aee4f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "package_utilities.py", line 430, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: azureml-core
+2020-12-23 11:34:51.878 - INFO - 5795 - azureml.automl.core.package_utilities._log_activity:92 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=100.87[ms]
+2020-12-23 11:38:29.716 - INFO - 5795 - azureml.train.automl.automlconfig._start_execution:158 - Local run configuration provided with docker set to False. Running local managed run.
+2020-12-23 11:38:29.716 - INFO - 5795 - azureml.train.automl.automlconfig._start_execution:195 - Submitting local legacy run.
+2020-12-23 11:38:29.717 - INFO - 5795 - azureml.automl.core.package_utilities._log_activity:54 - ActivityStarted: PackagesCheck
+2020-12-23 11:38:29.718 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scipy, Version: 1.5.2 found.
+2020-12-23 11:38:29.718 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: py-cpuinfo, Version: 5.0.0 found.
+2020-12-23 11:38:29.724 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gensim, Version: 3.8.3 found.
+2020-12-23 11:38:29.725 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: lightgbm, Version: 2.3.0 found.
+2020-12-23 11:38:29.725 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: keras2onnx, Version: 1.6.0 found.
+2020-12-23 11:38:29.725 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnx, Version: 1.7.0 found.
+2020-12-23 11:38:29.726 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: statsmodels, Version: 0.10.2 found.
+2020-12-23 11:38:29.726 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxmltools, Version: 1.4.1 found.
+2020-12-23 11:38:29.727 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: botocore, Version: 1.18.18 found.
+2020-12-23 11:38:29.727 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.727 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pmdarima, Version: 1.1.1 found.
+2020-12-23 11:38:29.727 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: nimbusml, Version: 1.8.0 found.
+2020-12-23 11:38:29.727 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pandas, Version: 0.25.3 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: dill, Version: 0.3.3 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scikit-learn, Version: 0.22.2.post1 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: smart-open, Version: 1.9.0 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxruntime, Version: 1.3.0 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: psutil, Version: 5.7.3 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: boto3, Version: 1.15.18 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: skl2onnx, Version: 1.4.9 found.
+2020-12-23 11:38:29.728 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: numpy, Version: 1.18.5 found.
+2020-12-23 11:38:29.729 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: sklearn-pandas, Version: 1.7.0 found.
+2020-12-23 11:38:29.729 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: joblib, Version: 0.14.1 found.
+2020-12-23 11:38:29.729 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxconverter-common, Version: 1.6.0 found.
+2020-12-23 11:38:29.731 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.731 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ruamel.yaml, Version: 0.16.12 found.
+2020-12-23 11:38:29.731 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-storage, Version: 11.2.0 found.
+2020-12-23 11:38:29.731 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pytz, Version: 2020.4 found.
+2020-12-23 11:38:29.731 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: python-dateutil, Version: 2.8.1 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrest, Version: 0.6.19 found.
+2020-12-23 11:38:29.732 - WARNING - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:284 - Package: pyopenssl, Version: 20.0.0 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-containerregistry, Version: 2.8.0 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pyjwt, Version: 1.7.1 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: cryptography, Version: 3.2.1 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: backports.tempfile, Version: 1.0 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jmespath, Version: 0.10.0 found.
+2020-12-23 11:38:29.732 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-keyvault, Version: 2.2.0 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-graphrbac, Version: 0.61.1 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrestazure, Version: 0.6.4 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jsonpickle, Version: 1.4.2 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ndg-httpsclient, Version: 0.5.1 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: docker, Version: 4.4.0 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: urllib3, Version: 1.25.11 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: adal, Version: 1.2.5 found.
+2020-12-23 11:38:29.733 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pathspec, Version: 0.8.1 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-common, Version: 1.1.26 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: secretstorage, Version: 3.3.0 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-resource, Version: 10.3.0 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: contextlib2, Version: 0.6.0.post1 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: requests, Version: 2.25.0 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-mgmt-authorization, Version: 0.61.0 found.
+2020-12-23 11:38:29.734 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.735 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-automl-client, Version: 1.19.0 found.
+2020-12-23 11:38:29.735 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-pipeline-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.735 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.735 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.735 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-restclients-hyperdrive, Version: 1.19.0 found.
+2020-12-23 11:38:29.736 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:38:29.736 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scipy, Version: 1.5.2 found.
+2020-12-23 11:38:29.736 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:38:29.736 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gensim, Version: 3.8.3 found.
+2020-12-23 11:38:29.736 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-storage-queue, Version: 12.1.4 found.
+2020-12-23 11:38:29.747 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: lightgbm, Version: 2.3.0 found.
+2020-12-23 11:38:29.748 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: keras2onnx, Version: 1.6.0 found.
+2020-12-23 11:38:29.748 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-train-automl-client, Version: 1.19.0 found.
+2020-12-23 11:38:29.748 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnx, Version: 1.7.0 found.
+2020-12-23 11:38:29.748 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-interpret, Version: 1.19.0 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: statsmodels, Version: 0.10.2 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxmltools, Version: 1.4.1 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: botocore, Version: 1.18.18 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-defaults, Version: 1.19.0 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.749 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: pandas, Version: 0.25.3 found.
+2020-12-23 11:38:29.750 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: smart-open, Version: 1.9.0 found.
+2020-12-23 11:38:29.750 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: scikit-learn, Version: 0.22.2.post1 found.
+2020-12-23 11:38:29.750 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxruntime, Version: 1.3.0 found.
+2020-12-23 11:38:29.750 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: boto3, Version: 1.15.18 found.
+2020-12-23 11:38:29.761 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: skl2onnx, Version: 1.4.9 found.
+2020-12-23 11:38:29.762 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: numpy, Version: 1.18.5 found.
+2020-12-23 11:38:29.762 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: sklearn-pandas, Version: 1.7.0 found.
+2020-12-23 11:38:29.762 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: onnxconverter-common, Version: 1.6.0 found.
+2020-12-23 11:38:29.763 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.763 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: jinja2, Version: 2.11.2 found.
+2020-12-23 11:38:29.763 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: interpret-community, Version: 0.15.4 found.
+2020-12-23 11:38:29.763 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:38:29.763 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: requests, Version: 2.25.0 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrest, Version: 0.6.19 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: msrestazure, Version: 0.6.4 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: applicationinsights, Version: 0.11.9 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: configparser, Version: 3.7.4 found.
+2020-12-23 11:38:29.764 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: json-logging-py, Version: 0.2 found.
+2020-12-23 11:38:29.765 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.765 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: flask, Version: 1.0.3 found.
+2020-12-23 11:38:29.765 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.765 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: gunicorn, Version: 19.9.0 found.
+2020-12-23 11:38:29.765 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-model-management-sdk, Version: 1.0.1b6.post1 found.
+2020-12-23 11:38:29.771 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: werkzeug, Version: 1.0.1 found.
+2020-12-23 11:38:29.772 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataprep-rslex, Version: 1.4.0 found.
+2020-12-23 11:38:29.773 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataprep-native, Version: 26.0.0 found.
+2020-12-23 11:38:29.773 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: cloudpickle, Version: 1.6.0 found.
+2020-12-23 11:38:29.775 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azure-identity, Version: 1.4.1 found.
+2020-12-23 11:38:29.776 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: dotnetcore2, Version: 2.1.19 found.
+2020-12-23 11:38:29.776 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.776 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-automl-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.778 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-dataset-runtime, Version: 1.19.0 found.
+2020-12-23 11:38:29.778 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:38:29.779 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.779 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: ipywidgets, Version: 7.5.1 found.
+2020-12-23 11:38:29.779 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-telemetry, Version: 1.19.0 found.
+2020-12-23 11:38:29.780 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: applicationinsights, Version: 0.11.9 found.
+2020-12-23 11:38:29.780 - INFO - 5795 - azureml.automl.core.package_utilities._has_versionconflict_or_not_installed:278 - Package: azureml-core, Version: 1.19.0 found.
+2020-12-23 11:38:29.781 - CRITICAL - 5795 - azureml.automl.core.package_utilities.log_traceback:224 - Type: IncompatibleOrMissingDependency
+Class: ValidationException
+Message: ValidationException:
+	Message: Install the required versions of packages using the requirements file. Requirements file location: /anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/automl/core/validated_linux_requirements.txt. Alternatively, use remote target to avoid dependency management. 
+Package name/Required version/Installed version
+azureml-core/pyopenssl<20.0.0/pyOpenSSL 20.0.0
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Install the required versions of packages using the requirements file. Requirements file location: /anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/automl/core/validated_linux_requirements.txt. Alternatively, use remote target to avoid dependency management. \nPackage name/Required version/Installed version\nazureml-core/pyopenssl<20.0.0/pyOpenSSL 20.0.0",
+        "target": "azureml-core",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "435ab938-fd87-49bc-932e-6eec0d6aee4f"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "package_utilities.py", line 430, in _get_package_incompatibilities
+    validated_requirements_file_path=VALIDATED_REQ_FILE_PATH
+
+ExceptionTarget: azureml-core
+2020-12-23 11:38:29.781 - INFO - 5795 - azureml.automl.core.package_utilities._log_activity:92 - ActivityCompleted: Activity=PackagesCheck, HowEnded=Failure, Duration=64.29[ms]
+2020-12-23 11:53:28.403 - INFO - 5795 - azureml.train.automl.automlconfig._start_execution:207 - Submitting remote.
+2020-12-23 12:44:00.994 - INFO - 5795 - azureml.automl.runtime.distributed.utilities.horovod_initialized:58 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2020-12-23 12:44:03.765 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:44:03.778 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:44:03.790 - CRITICAL - 5795 - azureml.train.automl.run.log_traceback:224 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "run.py", line 601, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2020-12-23 12:44:03.790 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=12.74[ms]
+2020-12-23 12:44:03.791 - CRITICAL - 5795 - azureml.train.automl.run.log_traceback:224 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "run.py", line 688, in get_output
+    activity_name=automl_shared_constants.TelemetryConstants.GET_OUTPUT
+  File "run.py", line 601, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2020-12-23 12:44:03.791 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=25.78[ms]
+2020-12-23 12:45:03.985 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:45:03.999 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:45:04.000 - CRITICAL - 5795 - azureml.train.automl.run.log_traceback:224 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "run.py", line 601, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2020-12-23 12:45:04.001 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=1.42[ms]
+2020-12-23 12:45:04.001 - CRITICAL - 5795 - azureml.train.automl.run.log_traceback:224 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 57, in _log_activity
+    yield
+  File "run.py", line 688, in get_output
+    activity_name=automl_shared_constants.TelemetryConstants.GET_OUTPUT
+  File "run.py", line 601, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2020-12-23 12:45:04.002 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=16.74[ms]
+2020-12-23 12:47:45.739 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:47:45.753 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:47:45.757 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:47:45.879 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=121.58[ms]
+2020-12-23 12:47:45.879 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=126.11[ms]
+2020-12-23 12:47:45.879 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:47:46.609 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:47:46.609 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:47:46.611 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:47:46.612 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:47:46.752 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=872.74[ms]
+2020-12-23 12:47:46.752 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=1013.02[ms]
+2020-12-23 12:48:11.240 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:48:11.247 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:48:11.264 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:48:11.386 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=121.6[ms]
+2020-12-23 12:48:11.386 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=138.79[ms]
+2020-12-23 12:48:11.387 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:48:11.829 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:48:11.829 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:48:11.830 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:48:11.831 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:48:11.915 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=528.69[ms]
+2020-12-23 12:48:11.916 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=675.52[ms]
+2020-12-23 12:50:48.094 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:50:48.108 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:50:48.119 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:50:48.231 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=111.91[ms]
+2020-12-23 12:50:48.231 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=122.71[ms]
+2020-12-23 12:50:48.232 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:50:48.810 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:50:48.810 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:50:48.812 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:50:48.812 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:50:48.883 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=651.73[ms]
+2020-12-23 12:50:48.884 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=789.05[ms]
+2020-12-23 12:51:39.377 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:51:39.389 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:51:39.402 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:51:39.561 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=158.49[ms]
+2020-12-23 12:51:39.561 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=172.08[ms]
+2020-12-23 12:51:39.562 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:51:40.073 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:51:40.074 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:51:40.075 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:51:40.076 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:51:40.154 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=591.98[ms]
+2020-12-23 12:51:40.154 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=777.53[ms]
+2020-12-23 12:52:13.980 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:52:13.988 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:52:14.005 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:52:14.137 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=131.78[ms]
+2020-12-23 12:52:14.137 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=148.77[ms]
+2020-12-23 12:52:14.137 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:52:14.606 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:52:14.606 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:52:14.608 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:52:14.608 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:52:14.691 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=553.78[ms]
+2020-12-23 12:52:14.691 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=711.45[ms]
+2020-12-23 12:53:11.650 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:53:11.664 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2020-12-23 12:53:11.678 - INFO - 5795 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2020-12-23 12:53:12.336 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=658.7[ms]
+2020-12-23 12:53:12.337 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=672.64[ms]
+2020-12-23 12:53:12.338 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2020-12-23 12:53:14.254 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:53:14.254 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:53:14.256 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-12-23 12:53:14.264 - INFO - 5795 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-12-23 12:53:14.345 - INFO - 5795 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=2007.91[ms]
+2020-12-23 12:53:14.346 - INFO - 5795 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=2695.69[ms]
