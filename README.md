@@ -52,4 +52,4 @@ Future improvements could be achieved by gathering more data. Also adding domain
 This domain knowledge could improve the results. Also the selection of a business question and the implementation of this solution would require more work. Also, the code could use a cleanup, but I ran out of time.
 
 ## Proof of cluster clean up
-![]('Proof_of_cleanup.png')
+![](Proof_of_cleanup.png)
