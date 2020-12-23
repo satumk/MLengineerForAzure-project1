@@ -10,16 +10,6 @@ import pandas as pd
 from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
 
-### YOUR CODE HERE ###
-url_path = "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
-ds = TabularDatasetFactory.TabularDataset.from_delimited_files(url)
-
-x, y = clean_data(ds)
-
-### YOUR CODE HERE ###
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0,2, random_state=30)
-
-run = Run.get_context()
 
 def clean_data(data):
     # Dict for cleaning data
@@ -49,6 +39,17 @@ def clean_data(data):
     
     return x_df, y_df
 
+### YOUR CODE HERE ###
+url_path = "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
+ds = TabularDatasetFactory.from_delimited_files(url_path)
+
+x, y = clean_data(ds)
+
+### YOUR CODE HERE ###
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state=42)
+
+run = Run.get_context()
+
 def main():
     # Add arguments to script
     parser = argparse.ArgumentParser()
@@ -67,7 +68,7 @@ def main():
     run.log("Accuracy", np.float(accuracy))
     
     os.makedirs('./outputs', exist_ok=True)
-    joblib.dump(value=model, './outputs/model.joblib')
+    joblib.dump(value=model, filename='./outputs/model.joblib')
 
 if __name__ == '__main__':
     main()
